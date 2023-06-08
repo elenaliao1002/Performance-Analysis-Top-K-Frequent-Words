@@ -6,7 +6,7 @@ This project measures the performance of different text processing algorithms su
 
 Make sure you have the following software installed on your system:
 
-- Python 3.x
+- Python 3.9
 - `pip` package manager
 
 ## Setup
@@ -34,13 +34,13 @@ python fetch_data.py
 
 This script will download the necessary files and store them in the appropriate locations.
 
-2. Preprocess the text data by running the `preprocess.py` script:
+2. Generate the top k words from the preprocessed data by running the `top_k_words.py` script:
 
 ```bash
-python preprocess.py
+python top_k_words.py dataset/data_2.5GB.txt <algorithm>
 ```
 
-This script will tokenize the text data, remove stopwords and non-alphabetic characters, and generate a list of tokens.
+Replace `<algorithm>` with one of the available options: `sorting`, `maxHeap`, or `bucketSort`. This script will calculate and display the top k words using the specified algorithm.
 
 3. Run the performance measurement by executing the `performance.py` script:
 
