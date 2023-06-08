@@ -2,6 +2,18 @@
 
 This project measures the performance of different text processing algorithms such as sorting, maxHeap, and bucketSort. It provides insights into the runtime, CPU usage, and memory usage of these algorithms when applied to tokenizing and processing text data.
 
+## Performance Analysis
+
+We conducted a performance analysis of the sorting, maxHeap, and bucketSort algorithms on the tokenized data. The analysis was done using Weights & Biases (wandb) for monitoring and logging performance metrics.
+
+The performance metrics measured include runtime, CPU usage, and memory usage. To view the detailed analysis and visualizations, please visit the following link:
+
+[Performance Analysis on wandb](https://api.wandb.ai/links/deee/2dazpbon)
+
+Feel free to explore the analysis to gain insights into the performance of the algorithms and their resource utilization.
+
+Note: The performance analysis requires access to the Weights & Biases (wandb) dashboard. If you don't have access or the link is not accessible, please ensure you have logged in to your wandb account.
+
 ## Prerequisites
 
 Make sure you have the following software installed on your system:
