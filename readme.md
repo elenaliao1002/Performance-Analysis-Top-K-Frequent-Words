@@ -1,4 +1,5 @@
 # Text Processing Performance Measurement
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 This project measures the performance of different text processing algorithms such as sorting, maxHeap, and bucketSort. It provides insights into the runtime, CPU usage, and memory usage of these algorithms when applied to tokenizing and processing text data.
 
@@ -72,6 +73,10 @@ You can customize the code according to your requirements:
 - Adjust the number of processes in `preprocess.py` to parallelize the tokenization process.
 - Modify the `k` value in `top_k_words.py` to change the number of top words to retrieve.
 - Customize the performance measurement functions in `performance.py` to suit your needs.
+
+## Contributing
+
+Contributions to this repository are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## License
 
