@@ -1,4 +1,4 @@
-# Text Processing Performance Measurement
+# Performance Analysis: Top K Frequent Words
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 This project measures the performance of different text processing algorithms such as sorting, maxHeap, and bucketSort. It provides insights into the runtime, CPU usage, and memory usage of these algorithms when applied to tokenizing and processing text data.
